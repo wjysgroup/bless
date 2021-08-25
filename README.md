@@ -1,3 +1,5 @@
+readme
+
 # Agent(Golang)
 
 构建Agent是指包含了agent进程监控和调度部分逻辑的代码，不包含与流水线交互的构建类业务逻辑代码，需要与另外一个worker(kotlin) 一起整合才能是完整的Agent包。
@@ -27,6 +29,5 @@ windows编译，执行脚本 `build_windows.bat`
 - scripts/linux/start.sh：   agent启动脚本
 - scripts/linux/stop.sh：   agent停止脚本
 - scripts/linux/uninstall.sh：   agent卸载脚本
-
 
 
